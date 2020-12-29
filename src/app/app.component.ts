@@ -21,7 +21,7 @@ export class AppComponent {
     centerPadding: "0",
     autoplay: false,
     dragrable: true,
-    // variableWidth: true,
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
