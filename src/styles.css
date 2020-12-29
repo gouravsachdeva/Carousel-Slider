@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+/* .slick-list{
+    height: 65vh !important;
+  top: 75px;
+  position: relative;
+  } */
+  
+/* .slick-list.draggable{
+    padding: 0% 60% !important;
+} */
+.slick-track {
+    display: flex !important;
+    align-items: center !important;
+}
