@@ -144,7 +144,7 @@ ul {
   transform: translateX(-50%);
 }
 
-.arrows a {
+/* .arrows a {
   font-size: 10px;
   margin: 0px 10px;
   display: inline-block;
@@ -158,7 +158,7 @@ ul {
   color: white;
   cursor: pointer;
   text-decoration: none;
-}
+} */
 
 div{
   outline: 0px;

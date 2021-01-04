@@ -1,0 +1,42 @@
+/* @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'); */
+.navbar-brand{
+    margin-left: 5%;
+    padding: 0px;
+    border: 3px solid white;
+}
+
+.navbar {
+    /* padding: 0px; */
+    padding-left: 60px;
+    min-height: 54px;
+}
+
+  .mtn-logo {
+    position: absolute;
+    z-index: 999;
+    left: 35px;
+    top: 0px;
+    border: 3px solid white;
+    box-shadow: 0 0 4px #abafb3;
+}
+
+.mtn-logo img{
+    height: 60px;
+}
+
+.navbar-nav .nav-link {
+    color: #6c6c6c !important;
+    font-size: 12px;
+    font-weight: 540;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  @media (max-width:640px) {
+    .navbar{
+        padding-left: 80px;
+    }
+
+    .mtn-logo {
+        left: 0;
+    }
+  }

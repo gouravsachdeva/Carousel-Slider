@@ -11,9 +11,9 @@ export class AppComponent {
   slides = ["Mobile internet", "Home internet", "Get a device", "Add a phone-line", "Upgrade", "Plan limits"];
 
   slideConfig = {
-    "slidesToShow": 5,
-    "slidesToScroll": 1,
-    "nextArrow": ".next-arrow",
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    nextArrow: ".next-arrow",
     prevArrow: ".prev-arrow",
     dots: false,
     infinite: true,
