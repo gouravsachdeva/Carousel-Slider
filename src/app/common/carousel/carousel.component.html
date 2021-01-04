@@ -1,0 +1,29 @@
+<app-navbar>
+</app-navbar>
+<div class="container-body">
+  <div class="container">
+    <div class="slider-wrapper">
+      <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig"
+        (init)="slickInit($event)" (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)"
+        (beforeChange)="beforeChange($event)">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+          <div class="card-wrapper">
+            <div class="card text-center cardView bottomLine">
+              <img
+                src="https://img.pngio.com/white-square-png-png-images-png-cliparts-free-download-on-seekpng-white-square-border-png-300_300.png">
+              <div class="card-body">
+                <p class="body-data">{{slide}}</p>
+              </div>
+              <p class="body-move">START HERE &nbsp; <i class="fa fa-chevron-right"></i></p>
+            </div>
+          </div>
+        </div>
+      </ngx-slick-carousel>
+
+      <ul class="arrows">
+        <app-prev-arrow></app-prev-arrow>
+        <app-next-arrow></app-next-arrow>
+      </ul>
+    </div>
+  </div>
+</div>

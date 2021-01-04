@@ -8,6 +8,7 @@ import { NavbarComponent } from './common/navbar/navbar.component';
 import { PrevArrowComponent } from './common/prev-arrow/prev-arrow.component';
 import { NextArrowComponent } from './common/next-arrow/next-arrow.component';
 import { SearchComponent } from './common/search/search.component';
+import { CarouselComponent } from './common/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SearchComponent } from './common/search/search.component';
     NavbarComponent,
     PrevArrowComponent,
     NextArrowComponent,
-    SearchComponent
+    SearchComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
