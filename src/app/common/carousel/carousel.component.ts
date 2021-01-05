@@ -7,23 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-  
-  slides = ["Mobile internet", "Home internet", "Get a device", "Add a phone-line", "Upgrade", "Plan limits"];
+  slides = ['Mobile internet', 'Home internet', 'Get a device', 'Add a phone-line', 'Upgrade', 'Plan limits'];
 
   slideConfig = {
     slidesToShow: 5,
     slidesToScroll: 1,
-    nextArrow: ".next-arrow",
-    prevArrow: ".prev-arrow",
+    nextArrow: '.next-arrow',
+    prevArrow: '.prev-arrow',
     dots: false,
     infinite: true,
     centerMode: true,
-    centerPadding: "0",
+    centerPadding: 0,
     autoplay: false,
     dragrable: true,
     variableWidth: true,
@@ -46,19 +40,24 @@ export class CarouselComponent implements OnInit {
     ],
   };
 
-  slickInit(e: any) {
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+  slickInit(e: any): void {
     console.log('slick initialized');
   }
 
-  breakpoint(e: any) {
+  breakpoint(e: any): void {
     console.log('breakpoint');
   }
 
-  afterChange(e: any) {
+  afterChange(e: any): void {
     console.log('afterChange');
   }
 
-  beforeChange(e: any) {
+  beforeChange(e: any): void {
     console.log('beforeChange');
   }
 }
